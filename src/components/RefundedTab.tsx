@@ -4,8 +4,12 @@ export const RefundedTab: React.FC = () => (
   <div className="row gy-4">
     <div className="col-lg-8">
       <div className="refund-feedback">
-        <h5 className="refund-feedback__title">Refund requests made against items you sold</h5>
-        <p className="refund-feedback__desc">There are no open refund requests at the moment.</p>
+        <h5 className="refund-feedback__title">
+          Refund requests made against items you sold
+        </h5>
+        <p className="refund-feedback__desc">
+          There are no open refund requests at the moment.
+        </p>
       </div>
     </div>
     <div className="col-lg-4">
@@ -15,7 +19,7 @@ export const RefundedTab: React.FC = () => (
           <div className="select-has-icon">
             <select className="common-input">
               <option value="1">Open Requests</option>
-              <option value="1">Open Requests</n>
+              <option value="1">Open Requests</option>
               <option value="1">Open Requests</option>
             </select>
           </div>
