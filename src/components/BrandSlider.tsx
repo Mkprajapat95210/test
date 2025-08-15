@@ -1,0 +1,38 @@
+import React from 'react';
+
+const BrandSlider: React.FC = () => {
+  return (
+    <div className="brand ">
+      <div className="container container">
+        <div className="brand-slider">
+          <div className="brand-item d-flex align-items-center justify-content-center">
+            <img src="assets/images/thumbs/brand-img1.png" alt="" className="white-version" />
+            <img src="assets/images/thumbs/brand-white-img1.png" alt="" className="dark-version" />
+          </div>
+          <div className="brand-item d-flex align-items-center justify-content-center">
+            <img src="assets/images/thumbs/brand-img2.png" alt="" className="white-version" />
+            <img src="assets/images/thumbs/brand-white-img2.png" alt="" className="dark-version" />
+          </div>
+          <div className="brand-item d-flex align-items-center justify-content-center">
+            <img src="assets/images/thumbs/brand-img3.png" alt="" className="white-version" />
+            <img src="assets/images/thumbs/brand-white-img3.png" alt="" className="dark-version" />
+          </div>
+          <div className="brand-item d-flex align-items-center justify-content-center">
+            <img src="assets/images/thumbs/brand-img4.png" alt="" className="white-version" />
+            <img src="assets/images/thumbs/brand-white-img4.png" alt="" className="dark-version" />
+          </div>
+          <div className="brand-item d-flex align-items-center justify-content-center">
+            <img src="assets/images/thumbs/brand-img5.png" alt="" className="white-version" />
+            <img src="assets/images/thumbs/brand-white-img5.png" alt="" className="dark-version" />
+          </div>
+          <div className="brand-item d-flex align-items-center justify-content-center">
+            <img src="assets/images/thumbs/brand-img3.png" alt="" className="white-version" />
+            <img src="assets/images/thumbs/brand-white-img3.png" alt="" className="dark-version" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default BrandSlider;
